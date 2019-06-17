@@ -1,11 +1,14 @@
 # NUC8i7BEH-macOS
 My custom configurations for Hackintosh on NUC8i7BEH.
 
-## Hardware
+## Environment
 
+- System: macOS Mojave 10.14.5
 - CPU: Intel® Core™ i7-8559U Processor (8M Cache, up to 4.50 GHz)
-- Memory: Curcial DDR4 2666 16GB
-- M.2 SSD: WD Black SN750 500G NVMe
+- Memory: Curcial DDR4 2666 16GB * 2
+- Disk: WD Black SN750 500G NVMe SSD + WD Blue 1T SATA SSD
+- GPU: Raze Core X + AMD Radeon RX 580 8GB
+- Monitor: Dell P2415Q
 
 ## Usage
 
