@@ -104,7 +104,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -igfxnohdmi -cdfon lilucpu=10</string>
+		<string>-v dart=0 -igfxnohdmi -cdfon lilucpu=10 agdpmod=pikera</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -175,12 +175,6 @@
 		<dict>
 			<key>Entries</key>
 			<array>
-				<dict>
-					<key>Hidden</key>
-					<true/>
-					<key>Type</key>
-					<string>OSXRecovery</string>
-				</dict>
 				<dict>
 					<key>Type</key>
 					<string>Windows</string>
@@ -284,7 +278,7 @@
 	<key>RtVariables</key>
 	<dict>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x00</string>
 		<key>BooterConfig</key>
 		<string>0x28</string>
 	</dict>
