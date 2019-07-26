@@ -14,6 +14,8 @@ My custom configurations for Hackintosh on NUC8i7BEH.
 
 - My configs are based on [RehabMan's guide](https://www.tonymacx86.com/threads/guide-intel-nuc7-nuc8-using-clover-uefi-nuc7i7bxx-nuc8i7bxx-etc.261711/), you can see more details on this post.
 - ACPI patches are compiled from [my fork of RehabMan's Intel-NUC-DSDT-Patch](https://github.com/corenel/Intel-NUC-DSDT-Patch).
+- `CLOVER` directory contains files in `/EFI/CLOVER`.
+- `Kexts` directory contains files to be installed in `/Library/Extentions`.
 
 ## Acknowledgement
 
