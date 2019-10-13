@@ -203,6 +203,20 @@
 					<key>Title</key>
 					<string>Windows</string>
 				</dict>
+				<dict>
+					<key>Hidden</key>
+					<true/>
+					<key>Type</key>
+					<string>OSXRecovery</string>
+				</dict>
+				<dict>
+					<key>FullTitle</key>
+					<string>UEFI internal</string>
+					<key>Hidden</key>
+					<string>Always</string>
+					<key>Type</key>
+					<string>Other</string>
+				</dict>
 			</array>
 		</dict>
 		<key>Hide</key>
@@ -295,7 +309,7 @@
 	<key>RtVariables</key>
 	<dict>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x00</string>
 		<key>BooterConfig</key>
 		<string>0x28</string>
 	</dict>
