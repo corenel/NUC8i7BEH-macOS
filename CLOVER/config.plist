@@ -134,33 +134,45 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>0</integer>
+			<integer>28</integer>
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0)/Pci(0x02,0)</key>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
-				<key>#AAPL,ig-platform-id</key>
-				<data>AAAAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-con0-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-con0-3e9b0007-alldata</key>
-				<data>AQUJAAAIAADHAwAA</data>
-				<key>framebuffer-con0-59120000-alldata</key>
-				<data>AQUJAAAIAACHAQAA</data>
-				<key>framebuffer-con1-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-con1-3ea50000-alldata</key>
-				<data>AQUJAAAIAACHAQAA</data>
-				<key>framebuffer-con1-59270000-alldata</key>
-				<data>AQUJAAAIAACHAQAA</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<data>AwAAAA==</data>
+				<key>model</key>
+				<string>Cannon Point-LP High Definition Audio Controller</string>
 			</dict>
-			<key>PciRoot(0)/Pci(0x1f,3)</key>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>#device-id</key>
-				<data>dJ0AAA==</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>CQClPg==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device-id</key>
+				<data>pT4AAA==</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-type</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel Iris Plus Graphics 655</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -200,7 +212,7 @@
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Scan</key>
 		<dict>
@@ -216,15 +228,10 @@
 		<key>Theme</key>
 		<string>BGM</string>
 	</dict>
-	<key>Graphics</key>
+	<key>#Graphics</key>
 	<dict>
-		<key>#ig-platform-id</key>
-		<string>0x3e9b0007</string>
-		<key>Inject</key>
-		<dict>
-			<key>Intel</key>
-			<false/>
-		</dict>
+		<key>ig-platform-id</key>
+		<string>0x3EA50009</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -288,7 +295,7 @@
 	<key>RtVariables</key>
 	<dict>
 		<key>CsrActiveConfig</key>
-		<string>0x00</string>
+		<string>0x67</string>
 		<key>BooterConfig</key>
 		<string>0x28</string>
 	</dict>
@@ -305,7 +312,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C078283064N1M</string>
+		<string>C078*****4N1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -337,7 +344,7 @@
 		<key>SerialNumber</key>
 		<string>C07X****JYVX</string>
 		<key>SmUUID</key>
-		<string>95A2F207-B8A8-4EEB-****-20FC35531275</string>
+		<string>95A2F207-****-****-****-20FC35531275</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
