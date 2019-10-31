@@ -3,7 +3,7 @@ My custom configurations for Hackintosh on NUC8i7BEH.
 
 ## Environment
 
-- System: macOS Catalina 10.15 (19A602)
+- System: macOS Catalina 10.15.1 (19B88)
 - CPU: Intel® Core™ i7-8559U Processor (8M Cache, up to 4.50 GHz)
 - Memory: Curcial DDR4 2666 16GB * 2
 - Disk: WD Black SN750 500G NVMe SSD + WD Blue 1T SATA SSD
