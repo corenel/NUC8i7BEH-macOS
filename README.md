@@ -3,6 +3,7 @@ My custom configurations for Hackintosh on NUC8i7BEH.
 
 ## Environment
 
+- **Bootloader**: OpenCore 0.5.7 (for Clover EFI files, see the [archived branch](https://github.com/corenel/NUC8i7BEH-macOS/tree/clover))
 - **System**: macOS Catalina 10.15.4 (19E287)
 - **CPU**: Intel® Core™ i7-8559U Processor (8M Cache, up to 4.50 GHz)
 - **Memory**: Curcial DDR4 2666 16GB * 2
