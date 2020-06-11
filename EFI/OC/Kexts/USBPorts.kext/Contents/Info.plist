@@ -107,6 +107,17 @@
 						BQAAAA==
 						</data>
 					</dict>
+					<key>HS06</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS06</string>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
 					<key>HS10</key>
 					<dict>
 						<key>UsbConnector</key>
