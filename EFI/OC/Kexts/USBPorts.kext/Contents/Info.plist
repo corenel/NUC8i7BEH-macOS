@@ -153,28 +153,6 @@
 						BAAAAA==
 						</data>
 					</dict>
-					<key>HS05</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>HS05</string>
-						<key>port</key>
-						<data>
-						AwAAAA==
-						</data>
-					</dict>
-					<key>HS06</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>HS06</string>
-						<key>port</key>
-						<data>
-						BAAAAA==
-						</data>
-					</dict>
 					<key>HS10</key>
 					<dict>
 						<key>UsbConnector</key>
